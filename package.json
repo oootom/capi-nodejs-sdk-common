@@ -12,7 +12,8 @@
   "author": "stomtomyang@gmail.com",
   "license": "Apache",
   "scripts": {
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "form-data": "^4.0.0",
