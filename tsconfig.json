@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // "incremental": true,
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "importHelpers": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "typeRoots": ["./node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": []
+}
