@@ -1,4 +1,4 @@
-# @tencent/capi-nodejs-sdk
+# @tomtoms/capi-nodejs-sdk
 
 ## 概述
 
